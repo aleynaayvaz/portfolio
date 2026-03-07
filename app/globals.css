@@ -1,5 +1,12 @@
 @import "tailwindcss";
 
+.font-crimson {
+  font-family: var(--font-crimson);
+}
+.font-dm-sans {
+  font-family: var(--font-dm-sans);
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
