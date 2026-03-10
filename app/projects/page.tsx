@@ -19,9 +19,16 @@ export default function Projects() {
     {
       title: "Weather App",
       description: "Next.js ve TypeScript ile geliştirdiğim hava durumu uygulaması. Anlık hava durumu, 5 günlük tahmin ve favori şehirler özellikleri içeriyor.",
-      techs: ["Next.js", "TypeScript", "Tailwind CSS", "OpenWeatherMap API"],
+      techs: ["Next.js", "TypeScript", "Tailwind CSS", "OpenWeatherMap API", "localStorage"],
       github: "https://github.com/aleynaayvaz/nextjs-learning",
       live: "https://nextjs-learning-kxecihtos-aleynaayvazs-projects.vercel.app/",
+    },
+    {
+      title: "Movie App",
+      description: "Next.js ile geliştirdiğim film ve dizi arama uygulaması. TMDB API entegrasyonu, popüler içerikler, kategori filtresi, arama geçmişi ve favori kaydetme özellikleri içeriyor.",
+      techs: ["Next.js", "TypeScript", "Tailwind CSS", "TMDB API", "localStorage", "Custom Hook"],
+      github: "https://github.com/aleynaayvaz/movie-app",
+      live: "https://movie-773bievic-aleynaayvazs-projects.vercel.app/",
     },
   ];
 
